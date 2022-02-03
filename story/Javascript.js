@@ -1,30 +1,30 @@
 const citymap = {
   Surat: {
     center: { lat: 21.170, lng: 72.831 },
-    population: 710,
+    population: 71000,
   },
   Ahmedabad: {
     center: { lat: 23.022, lng: 72.571 },
-    population: 820,
+    population: 82000,
   },
   vadodara: {
     center: { lat: 22.307, lng: 73.181 },
-    population: 200,
+    population: 21750,
   },
   rajkot: {
     center: { lat: 22.303, lng: 70.802 },
-    population: 200,
+    population: 20000,
   },
    Junagadh: {
    center: { lat: 21.522, lng: 70.457 },
-   population: 435,
+   population: 41523,
   },
 };
 
 function initMap() {
   // Create the map.
   const map = new google.maps.Map(document.getElementById("map"), {
-    zoom: 7,
+    zoom: 8,
     center: { lat: 22.258, lng: 71.192 },
     mapTypeId: "terrain",
   });
