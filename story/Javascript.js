@@ -19,6 +19,10 @@ const citymap = {
    center: { lat: 21.522, lng: 70.457 },
    population: 41523,
   },
+    Bhuj: {
+   center: { lat: 23.242, lng: 69.66 },
+   population: 21354,
+  },
 };
 
 function initMap() {
