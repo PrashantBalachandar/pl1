@@ -1,31 +1,31 @@
 const citymap = {
-  NewDelhi: {
-    center: { lat: 28.613, lng: 77.209 },
-    population: 30700000,
+  Surat: {
+    center: { lat: 21.170, lng: 72.831 },
+    population: 7100000,
   },
   Ahmedabad: {
     center: { lat: 23.022, lng: 72.571 },
     population: 8253000,
   },
-  Mumbai: {
-    center: { lat: 19.076, lng: 72.877 },
-    population: 20000000,
+  vadodara: {
+    center: { lat: 22.307, lng: 73.181 },
+    population: 2175000,
   },
-  Kolkata: {
-    center: { lat: 22.572, lng: 88.363 },
-    population: 14850000,
+  rajkot: {
+    center: { lat: 22.303, lng: 70.802 },
+    population: 2000000,
   },
-   Chennai: {
-   center: { lat: 22.572, lng: 88.363 },
-   population: 8653521,
+   Junagadh: {
+   center: { lat: 21.522, lng: 70.457 },
+   population: 415235,
   },
 };
 
 function initMap() {
   // Create the map.
   const map = new google.maps.Map(document.getElementById("map"), {
-    zoom: 5,
-    center: { lat: 20.593, lng: 78.962 },
+    zoom: 12,
+    center: { lat: 22.258, lng: 71.192 },
     mapTypeId: "terrain",
   });
 
