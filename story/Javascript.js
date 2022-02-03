@@ -1,27 +1,31 @@
 const citymap = {
-  chicago: {
-    center: { lat: 41.878, lng: -87.629 },
-    population: 2714856,
+  New Delhi: {
+    center: { lat: 28.613, lng: 77.209 },
+    population: 30700000,
   },
-  newyork: {
-    center: { lat: 40.714, lng: -74.005 },
-    population: 8405837,
+  Ahmedabad: {
+    center: { lat: 23.022, lng: 72.571 },
+    population: 8253000,
   },
-  losangeles: {
-    center: { lat: 34.052, lng: -118.243 },
-    population: 3857799,
+  Mumbai: {
+    center: { lat: 19.076, lng: 72.877 },
+    population: 20000000,
   },
-  vancouver: {
-    center: { lat: 49.25, lng: -123.1 },
-    population: 603502,
+  Kolkata: {
+    center: { lat: 22.572, lng: 88.363 },
+    population: 14850000,
+  },
+   Chennai: {
+   center: { lat: 22.572, lng: 88.363 },
+   population: 8653521,
   },
 };
 
 function initMap() {
   // Create the map.
   const map = new google.maps.Map(document.getElementById("map"), {
-    zoom: 4,
-    center: { lat: 37.09, lng: -95.712 },
+    zoom: 5,
+    center: { lat: 20.593, lng: 78.962 },
     mapTypeId: "terrain",
   });
 
