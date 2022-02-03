@@ -24,7 +24,7 @@ const citymap = {
 function initMap() {
   // Create the map.
   const map = new google.maps.Map(document.getElementById("map"), {
-    zoom: 6,
+    zoom: 4,
     center: { lat: 22.258, lng: 71.192 },
     mapTypeId: "terrain",
   });
@@ -41,7 +41,7 @@ function initMap() {
       fillOpacity: 0.35,
       map,
       center: citymap[city].center,
-      radius: Math.sqrt(citymap[city].population) * 10000,
+      radius: Math.sqrt(citymap[city].population) * 10,
     });
   }
 }
