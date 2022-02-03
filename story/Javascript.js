@@ -1,5 +1,5 @@
 const citymap = {
-  New Delhi: {
+  NewDelhi: {
     center: { lat: 28.613, lng: 77.209 },
     population: 30700000,
   },
